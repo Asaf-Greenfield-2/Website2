@@ -7,96 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouncy Castle Rentals</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
+        /* Your existing styles here */
 
-        header {
-            background-color: #3498db;
-            color: #ffffff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        section {
-            padding: 2em;
-        }
-
-        h1, h2 {
-            color: #333333;
-        }
-
-        .intro {
-            text-align: center;
-            margin-bottom: 2em;
-        }
-
-        .services {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 2em;
-        }
-
-        .service {
-            width: 30%;
-            margin: 1em;
-            padding: 1em;
-            background-color: #ffffff;
-            border: 1px solid #cccccc;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        footer {
+        /* Additional styles for the left menu */
+        .left-menu {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 100%;
             background-color: #333333;
+            padding-top: 20px;
             color: #ffffff;
-            text-align: center;
-            padding: 1em 0;
+        }
+
+        .left-menu a {
+            display: block;
+            padding: 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .left-menu a:hover {
+            background-color: #555555;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Bouncy Castle Rentals</h1>
-        <p>Your source for fun and excitement!</p>
-    </header>
+    <!-- Left Menu -->
+    <div class="left-menu">
+        <a href="order.html">Order</a>
+    </div>
 
-    <section>
-        <div class="intro">
-            <h2>Welcome to our Bouncy Castle Rental Service</h2>
-            <p>Make your event unforgettable with our colorful and exciting bouncy castles. Perfect for birthdays,
-                parties, and special occasions.</p>
-        </div>
+    <!-- Content -->
+    <div class="content">
+        <header>
+            <h1>Bouncy Castle Rentals</h1>
+            <p>Your source for fun and excitement!</p>
+        </header>
 
-        <div class="services">
-            <div class="service">
-                <h3>Wide Selection</h3>
-                <p>Choose from a variety of themes and sizes to suit your event. We have options for all ages and
-                    preferences.</p>
+        <section>
+            <div class="intro">
+                <h2>Welcome to our Bouncy Castle Rental Service</h2>
+                <p>Make your event unforgettable with our colorful and exciting bouncy castles. Perfect for birthdays,
+                    parties, and special occasions.</p>
             </div>
 
-            <div class="service">
-                <h3>Safe and Clean</h3>
-                <p>Safety is our top priority. Our bouncy castles are regularly inspected, cleaned, and maintained to
-                    ensure a safe and enjoyable experience for everyone.</p>
+            <div class="services">
+                <!-- Your existing services content here -->
             </div>
+        </section>
 
-            <div class="service">
-                <h3>Delivery and Setup</h3>
-                <p>Relax and let us handle the logistics. We deliver, set up, and take down the bouncy castle, making
-                    your experience hassle-free.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Bouncy Castle Rentals. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Bouncy Castle Rentals. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
