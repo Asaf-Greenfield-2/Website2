@@ -1,50 +1,27 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
+/* styles.css */
 
+/* Additional styles for the header */
 header {
-    background-color: #3498db;
-    color: #ffffff;
-    text-align: center;
-    padding: 1em 0;
+    cursor: pointer; /* Change cursor to pointer for interactive elements */
 }
 
-section {
-    padding: 2em;
+/* Additional styles for the section */
+.section-title {
+    font-size: 1.5em;
+    color: #e74c3c; /* Change the color to a different one */
 }
 
-h1, h2 {
-    color: #333333;
+/* Additional styles for the services */
+.service:hover {
+    transform: scale(1.05); /* Add a hover effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
 }
 
-.intro {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.services {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 2em;
-}
-
-.service {
-    width: 30%;
-    margin: 1em;
-    padding: 1em;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
-    text-align: center;
-}
-
+/* Additional styles for the footer */
 footer {
-    background-color: #333333;
-    color: #ffffff;
-    text-align: center;
-    padding: 1em 0;
+    font-size: 0.9em;
+    background-color: #555555; /* Change the background color */
+    padding: 0.5em;
+    margin-top: 2em;
+    color: #ffffff; /* Change text color */
 }
